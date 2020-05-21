@@ -5,4 +5,6 @@
 
 ```sh
 $ npm run build
+
+python -m SimpleHTTPServer 9000
 ```
