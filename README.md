@@ -1,3 +1,8 @@
 # generate-sign
 
-npm run build
+
+# setup
+
+```sh
+$ npm run build
+```
