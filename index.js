@@ -57,6 +57,7 @@ signTypedDataV3Button.addEventListener('click', function (event) {
     }
     if (result.error) return alert('ERROR', result)
     console.log('TYPED SIGNED:' + JSON.stringify(result.result))
+    document.getElementById("signature").innerHTML = JSON.stringify(result.result)
 
   })
 
