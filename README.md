@@ -3,11 +3,17 @@
 
 # setup
 
-```sh
-npm i
-$ npm run build
+- First install dependencies
 
-python -m SimpleHTTPServer 8000
+```bash
+$ npm install
+```
+
+- Now these two commands
+
+```bash
+$ npm run build
+$ python -m SimpleHTTPServer 8000
 ```
 
 Open localhost:8000 and connect metamask
